@@ -1,4 +1,7 @@
 node_modules
-*.js
+index.js
 src/*/*.js
 package-lock.json
+
+swagger-output.json
+

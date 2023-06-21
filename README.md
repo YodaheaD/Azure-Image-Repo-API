@@ -1,23 +1,18 @@
-## Express API TS boilerplate
+## Express API for Blob Storage
 - By: Yoda Daniel
 
 #### Details:
 
-- A boilerplate project for creating Express API's.
+- An express API for interacting with Blob storages.
 
 #### Features:
 
-- Typescript
-- nodemon
-- Cors
-- concurrently
-- Source directory with addition route 'page'.
-- .vscode/settings.json to ignore '.js' output files.
-- .gitignore for ignoring TS output files and others.
+- Read blob files in blob container.
+- Create new container for blobs.
+- Options to autogenerate Swagger API documents using 'npm run swagger'.
 
 
 #### Versions list:
 
 ##### 1.0 <--> Initial Release
-- A Express API written in TS using nodemon, cors, concurrently.
-- Has extra 'page' route in src.
+- Api currently reads blobs from blob container name 'org-images'. 
