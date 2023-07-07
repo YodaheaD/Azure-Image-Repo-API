@@ -16,3 +16,8 @@
 
 ##### 1.0 <--> Initial Release
 - Api currently reads blobs from blob container name 'org-images'. 
+
+
+##### 1.1 <--> Additions Release
+- Api can download blobs in the form of buffer data and return. 
+- Added Winston Logger. 
